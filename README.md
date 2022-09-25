@@ -3,7 +3,7 @@
 
 This project developed with pure HTML and TailwindCSS mainly focused on Pure Javascript. <br/>
 
-A Quote generator app on each refresh that gives us different quotes.  
+A drum kit app in which players can make a corresponding drum noise by pressing each key. 
 
 <br/>
 
@@ -16,24 +16,25 @@ A Quote generator app on each refresh that gives us different quotes.
 <br/>
 
 # Concepts used 
-- Event listner
-- fetch()
-- json()
-- promises 
+- Event listner -Keyup
+- dataset
+- functions
+- callback functions
+- Audio
 
 
 # Time taken to finish this project :
 
-2 hour to finish this project.
+7 hour to finish this project.
 
 ### You can Check it Live on Below Link :
 
-[Live Link !](https://random-quote-generator-app-js.netlify.app/)
+[Live Link !](https://drum-kit-music-app-js.netlify.app/)
 
 ### Demo :
 
-![App Image](https://github.com/anitha-nagadasarink/randome-quote-generator/blob/Javascript-projects/images/demo.PNG)
-![App Image](https://github.com/anitha-nagadasarink/randome-quote-generator/blob/Javascript-projects/images/demo-1.PNG)
+![App Image](https://github.com/anitha-nagadasarink/drum-kit/blob/Javascript-projects/images/demo.PNG)
+![App Image](https://github.com/anitha-nagadasarink/drum-kit/blob/Javascript-projects/images/demo-1.PNG)
 
 
 
