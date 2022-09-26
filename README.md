@@ -1,4 +1,4 @@
-# Project Name : **Random Quote Generator** 
+# Project Name : **Drum Kit Music** 
 ![badge](https://img.shields.io/badge/iNeuron-LCO-green) ![badge](https://img.shields.io/badge/Hitesh--Choudhary-Full%20Stack%20Javascript%20Course-orange)
 
 This project developed with pure HTML and TailwindCSS mainly focused on Pure Javascript. <br/>
@@ -25,7 +25,7 @@ A drum kit app in which players can make a corresponding drum noise by pressing 
 
 # Time taken to finish this project :
 
-7 hour to finish this project.
+8 hour to finish this project.
 
 ### You can Check it Live on Below Link :
 
