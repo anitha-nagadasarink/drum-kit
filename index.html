@@ -7,54 +7,73 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Drum Kit</title>
   <script src="https://cdn.tailwindcss.com"></script>
-   <style>
+  <style>
     .active {
       background-color: #5e34bd;
       border: 6px double yellow;
       transition: all .2s ease-in;
     }
+
     .gradient-text {
       background-clip: text;
       -webkit-background-clip: text;
-     -webkit-text-fill-color: transparent;
+      -webkit-text-fill-color: transparent;
     }
   </style>
 </head>
 
 <body>
   <section class="bg-blueLight md:h-[100vh] text-center py-8 md:p-20 text-white bg-slate-900 uppercase">
-    <h1 class="md:text-4xl mb-6  text-xl font-bold"> <span class="gradient-text bg-gradient-to-r from-purple-500 to-pink-500">&#9836;&#119070;</span> The Drum kit <span class="gradient-text bg-gradient-to-r from-violet-500 to-fuchsia-500">&#9834;&#9835;</span></h1>
+    <h1 class="md:text-4xl mb-6  text-xl font-bold"> <span
+        class="gradient-text bg-gradient-to-r from-purple-500 to-pink-500">&#9836;&#119070;</span> The Drum kit <span
+        class="gradient-text bg-gradient-to-r from-violet-500 to-fuchsia-500">&#9834;&#9835;</span></h1>
     <!-- <img src="images/music.png" width="400"/> -->
-    <h5 class="md:text-2xl mb-6 text-lg">Press Below Keys To Enjoy The Music <span class="gradient-text bg-gradient-to-r from-purple-500 to-pink-500">&#119136;&#9835;&#119136;&#119139;&#9834;....</span></h5>
+    <h5 class="md:text-2xl mb-6 text-lg">Press Below Keys To Enjoy The Music <span
+        class="gradient-text bg-gradient-to-r from-purple-500 to-pink-500">&#119136;&#9835;&#119136;&#119139;&#9834;....</span>
+    </h5>
     <div
       class="flex justify-center flex-wrap w-[100%] mt-10 shadow-xl shadow-black-400 rounded-xl pt-8 px-8 mx-auto text-3xl uppercase">
 
       <!-- Buttons -->
-      <div class="flex flex-col btn btn-1 w-1/2 sm:w-1/3 md:w-1/5 border-4 border-white-700 p-5 mr-6 mb-6" data-btn="a">
+      <div
+        class="flex flex-col btn btn-1 w-1/2 sm:w-1/3 md:w-1/5 border-4 border-white-700 p-5 mr-6 mb-6 cursor-pointer"
+        data-btn="a">
         <span> A</span>
         <span class="text-lg">Flute </span>
       </div>
-      <div class="flex flex-col btn btn-2 w-1/2 sm:w-1/3 md:w-1/5 border-4 border-white-700 p-5 mr-6 mb-6" data-btn="s">
+      <div
+        class="flex flex-col btn btn-2 w-1/2 sm:w-1/3 md:w-1/5 border-4 border-white-700 p-5 mr-6 mb-6 cursor-pointer"
+        data-btn="s">
         <span> S</span>
         <span class="text-lg">guiter mini</span>
       </div>
-      <div class="flex flex-col btn btn-3 w-1/2 sm:w-1/3 md:w-1/5 border-4 border-white-700 p-5 mr-6 mb-6" data-btn="d">
+      <div
+        class="flex flex-col btn btn-3 w-1/2 sm:w-1/3 md:w-1/5 border-4 border-white-700 p-5 mr-6 mb-6 cursor-pointer"
+        data-btn="d">
         <span> D</span>
         <span class="text-lg">guiter</span>
       </div>
-      <div class="flex flex-col btn btn-4 w-1/2 sm:w-1/3 md:w-1/5 border-4 border-white-700 p-5 mr-6 mb-6" data-btn="f">
+      <div
+        class="flex flex-col btn btn-4 w-1/2 sm:w-1/3 md:w-1/5 border-4 border-white-700 p-5 mr-6 mb-6 cursor-pointer"
+        data-btn="f">
         <span> F</span>
         <span class="text-lg">piano mini</span>
       </div>
-      <div class="flex flex-col btn btn-5 w-1/2 sm:w-1/3 md:w-1/5 border-4 border-white-700 p-5 mr-6 mb-6" data-btn="j">
+      <div
+        class="flex flex-col btn btn-5 w-1/2 sm:w-1/3 md:w-1/5 border-4 border-white-700 p-5 mr-6 mb-6 cursor-pointer"
+        data-btn="j">
         <span> j</span>
         <span class="text-lg">piano</span>
       </div>
-      <div class="flex flex-col btn btn-6 w-1/2 sm:w-1/3 md:w-1/5 border-4 border-white-700 p-5 mr-6 mb-6" data-btn="k">
+      <div
+        class="flex flex-col btn btn-6 w-1/2 sm:w-1/3 md:w-1/5 border-4 border-white-700 p-5 mr-6 mb-6 cursor-pointer"
+        data-btn="k">
         <span> k</span>
         <span class="text-lg">Drum </span>
       </div>
-      <div class="flex flex-col btn btn-7 w-1/2 sm:w-1/3 md:w-1/5 border-4 border-white-700 p-5 mr-6 mb-6" data-btn="l">
+      <div
+        class="flex flex-col btn btn-7 w-1/2 sm:w-1/3 md:w-1/5 border-4 border-white-700 p-5 mr-6 mb-6 cursor-pointer"
+        data-btn="l">
         <span> l</span>
         <span class="text-lg">Disc Drum </span>
       </div>
@@ -91,4 +110,5 @@
   </section>
   <script src="script.js"></script>
 </body>
+
 </html>

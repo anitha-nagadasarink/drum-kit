@@ -17,3 +17,10 @@ window.addEventListener("keyup", function (e) {
     }   
   });
 });
+
+// Click Events
+musicBtn.forEach((btn, i) => {
+  btn.addEventListener("click", function(e){
+    playMusic(audio[i], btn)
+  });
+});
